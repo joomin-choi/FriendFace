@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct UserServiceResponse: Codable {
-    var id: String
+struct User: Codable, Identifiable {
+    var id: UUID
     var isActive: Bool
     var name: String
     var age: Int
@@ -16,12 +16,12 @@ struct UserServiceResponse: Codable {
     var email: String
     var address: String
     var about: String
-    var registered: String
+    var registered: Date
     var tags: [String]
-    var friends: [Friends]
+    var friends: [Friend]
     
-    struct Friends: Codable {
-        var id: String
+    struct Friend: Codable {
+        var id: UUID
         var name: String
     }
 }

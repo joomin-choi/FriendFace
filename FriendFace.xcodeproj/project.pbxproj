@@ -12,6 +12,7 @@
 		DBCFCEEB28FEDB31000083C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCFCEEA28FEDB31000083C3 /* Assets.xcassets */; };
 		DBCFCEEE28FEDB31000083C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCFCEED28FEDB31000083C3 /* Preview Assets.xcassets */; };
 		DBCFCEF528FEDC9E000083C3 /* UserServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFCEF428FEDC9E000083C3 /* UserServiceResponse.swift */; };
+		DBCFCEF728FEE0A4000083C3 /* UserDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFCEF628FEE0A4000083C3 /* UserDataFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		DBCFCEEA28FEDB31000083C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBCFCEED28FEDB31000083C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBCFCEF428FEDC9E000083C3 /* UserServiceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceResponse.swift; sourceTree = "<group>"; };
+		DBCFCEF628FEE0A4000083C3 /* UserDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				DBCFCEE628FEDB2F000083C3 /* FriendFaceApp.swift */,
 				DBCFCEE828FEDB2F000083C3 /* ContentView.swift */,
 				DBCFCEF428FEDC9E000083C3 /* UserServiceResponse.swift */,
+				DBCFCEF628FEE0A4000083C3 /* UserDataFetcher.swift */,
 				DBCFCEEA28FEDB31000083C3 /* Assets.xcassets */,
 				DBCFCEEC28FEDB31000083C3 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				DBCFCEE928FEDB2F000083C3 /* ContentView.swift in Sources */,
 				DBCFCEE728FEDB2F000083C3 /* FriendFaceApp.swift in Sources */,
+				DBCFCEF728FEE0A4000083C3 /* UserDataFetcher.swift in Sources */,
 				DBCFCEF528FEDC9E000083C3 /* UserServiceResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
